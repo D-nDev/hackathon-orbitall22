@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CardsApplication<cards>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.orbitallpayments.cards.CardsApplication",
+            "projectName": "cards",
+            "args": ""
+        }
+    ]
+}
