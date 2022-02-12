@@ -6,8 +6,6 @@ By [Stefanini](https://stefanini.com/).
 
 ## Estória da Hackaton Orbitall Payments 2022
 
-**Obs: Paginação começando da página 1**
-
 O cliente X solicitou a Orbitall Payments que necessita ter cartões virtuais de crédito para oferecer ao seus clientes o uso na APP Store. Dado a isto, precisamos que seja criado uma entidade de cartão (card) com os dados pessoais, conforme a diagrama de classe Card abaixo:
 
 ```sh
