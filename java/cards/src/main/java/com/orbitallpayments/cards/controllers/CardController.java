@@ -139,7 +139,7 @@ public class CardController {
     }
 
     @RequestMapping(value = "/paginationAndSorting", method = RequestMethod.GET)
-    public ResponseEntity<List<Card>> findAll(
+    public ResponseEntity<List<Card>> findAllPaging(
             @PageableDefault(page = 0, size = 10, sort = "id", direction = Sort.Direction.ASC) Pageable pageable) {
         try {
             List<Card> allcards = cardService.findbyPage(pageable);
