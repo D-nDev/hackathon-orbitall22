@@ -145,7 +145,7 @@ public class CardController {
             List<Card> allcards = cardService.findbyPage(pageable);
 
             if (allcards.isEmpty()) {
-                throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No cards found");
+                throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No cards found on this page");
             }
             return ResponseEntity.status(200).body(allcards);
         } catch (Error error) {
